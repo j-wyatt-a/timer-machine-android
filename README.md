@@ -56,4 +56,4 @@ TimeR Machine is under the [GNU General Public License v3.0](LICENSE).
 
 Some code and functions
 from [AOSP's desklock](https://android.googlesource.com/platform/packages/apps/DeskClock/+/refs/heads/master/src/com/android/deskclock)
-are under the Apache License 2.0.
+are under the Apache License 2.0. 
