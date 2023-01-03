@@ -26,7 +26,7 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew app:assembleOtherRelease
       - name: ls file
-        run: ls -a app/build/outputs/apk
+        run: ls -a app/build/outputs/apk/other
       - name: Upload Artifact
         uses: actions/upload-artifact@v1
         with:
