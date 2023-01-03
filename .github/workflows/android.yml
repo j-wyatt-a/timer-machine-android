@@ -25,7 +25,7 @@ jobs:
         run: chmod +x gradlew
       - name: Build with Gradle
         run: ./gradlew app:assembleOtherRelease
-      - ls file
+      - name: ls file
         run: ls -a app/build/outputs
       - name: Upload Artifact
         uses: actions/upload-artifact@v1
